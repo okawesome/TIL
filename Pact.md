@@ -1,21 +1,21 @@
-#Pact
+# Pact
 
-#####1. Pact란?
+##### 1. Pact란?
 ```
 Consumer-Driven Contract Testing을 위한 테스트 프레임워크
 ```
-#####2. 개념
+##### 2. 개념
 ```
 API제공자와 사용자가 Pact를 활용하여 Contract(API명세규약)를 교환
 ```
-#####3. 동작 방식
+##### 3. 동작 방식
 ```
 1. 사용자가 제공자의 API를 호출하는 경우, Pact프레임워크를 사용하여 제공자의 API를 stubbing하여 테스트 코드를 작성
 2. 작성 테스트코드 실행 시, Pact에서 Pactfile을 generate해줌 (Pactfile : json형태의 Contract명세파일)
 3. Pactfile을 PactBroker에 업로드 (PactBroker : Pactfile 교환을 위한 repository)
 4. 제공자가 PactBroker에서 Pactfile을 가져온 후, 실제 제공자의 API가 Pactfile의 명세와 일치하는 지 검증
 ```
-#####4. 예시
+##### 4. 예시
 1. Pactfile 예시
 ```
 {
