@@ -54,9 +54,8 @@ API제공자와 사용자가 Pact를 활용하여 Contract(API명세규약)를 �
 }
 ```
 ##### 5. 참고
-```
+
 - Pact Docs : https://docs.pact.io/documentation/
 - Pact jvm + springBoot 예시 프로젝트 : https://github.com/mstine/microservices-pact
 - Pact Broker 깃헙 : https://github.com/pact-foundation/pact_broker
 - Pact Broker 사용 예 : https://blog.shanelee.name/2016/07/19/consumer-driven-contract-testing-using-pact/
-```
