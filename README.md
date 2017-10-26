@@ -11,4 +11,5 @@
 - learning gradle
 - learning tips about intellij
 - making github.io blog
+- learning how to use Go server
 ```
