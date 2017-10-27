@@ -3,6 +3,7 @@
 
 ### BACKLOG
 ```
+- learning JAVA Garbage Collection
 - create node.js server 
 - learning and writing code about java 7,8,9 features
 - learning how to use AWS
